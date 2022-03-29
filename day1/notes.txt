@@ -1,0 +1,19 @@
+1. 
+Enterprise application for exhange of data with any1 - we need a standrd service
+
+data has to be exchanged with all the devises
+
+They exchange the data which is very very light weight and
+undersdtood by anything
+	OS
+	Framework
+	tool
+	devise etc
+
+2. Instead of giveing access to the server, they allow you to create a REST FUL Service
+
+	What is REST ?
+	Representational State Transfer over HTTP
+	It is a standard by W3C and ECMA
+		Microsoft went ahead adopted this standard, create compilers, framework, namespaces, classes methods etc
+		and gave it to the world as WebAPI on .Net Core

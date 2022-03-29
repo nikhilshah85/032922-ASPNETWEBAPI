@@ -1,0 +1,12 @@
+REST API can 4 types of data
+a. Primitive data type (string, int, double, bool etc...)
+b. Primitive data collection (Array or list, dictionary, hashtable of int, string, double etc)
+c. Object (user defined data type, empObj, products Obj etc..)
+d. Collection of objects
+
+	With WebAPI - we have 4 methods
+
+	HTTPGET
+	HTTPPOST (create a new resource) - insert or upload a new picture (status code 201 - created)
+	HTTPDELETE (delete an existing resource) - delete statement (statud code 20 - removed)
+	HTTPPUT (update and existing rescource) - update statement (status code - accepted)
