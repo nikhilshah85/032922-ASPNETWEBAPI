@@ -1,0 +1,1 @@
+WEBAPI Appliction with CRUD operation using EF Core and SQL Server database, with database first approach

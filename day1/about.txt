@@ -1,0 +1,15 @@
+ASP.Net WebAPI | RESTFUL Services (on .net core 5.0 platform)
+
+	WebAPI App with EF on SQL Server with CRUD Opetations
+	a. Develop rest ful services
+	b. Consume Rest Service
+		(from server side, using C#)
+		(from client side, using Jquery)
+
+Pre-requisite
+	OOPS and C#
+
+Cloud Lab or personal machine (Windows or mac or ubuntu)
+Visual Studio
+SQL Server
+Visual Studio Code

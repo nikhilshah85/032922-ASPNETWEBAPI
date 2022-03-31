@@ -1,0 +1,7 @@
+1. Intro to REST API
+2. Created a REST API (WebAPI)
+3. Controllers
+4. Model
+5. Status code
+6. Use swagger
+7. HTTPGET, Post, Put, delete

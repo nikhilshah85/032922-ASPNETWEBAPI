@@ -1,0 +1,18 @@
+1. Ready your database
+2. Create a Web API application
+3. Install nuget package for EF if you want to use EF
+	4 packages to be installed
+4. Create your model and DBContext file using nuget package manager console
+	(keep your connection string ready)
+
+	you will use Scaffold-DbContext command
+
+	Scaffold-DbContext "server=DESKTOP-H5HFUEB\TRAINERINSTANCE;database=restAPIProductManagementDB;integrated security=true"
+
+
+	Microsoft.EntityFrameworkCore.SqlServer
+
+-----------------------------------------------
+	To consume rest api, there are 2 ways
+		a. client centric code, light weight faster, not to be used for condendential data - jQuery
+		b. server centerc code, light weight but slower then above one, due to client and server roundtrip

@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "GetAlbums";
+}
+
+<h1>GetAlbums</h1>
+
+
+<h4>This is a Rest call from C# </h4>
+<table class="table table-bordered">
+    @foreach (var item in ViewBag.albums)
+    {
+    <tr>
+        <td> @item.userId</td>
+        <td> @item.Id</td>
+        <td> @item.Title</td>
+        
+    </tr>
+    }
+    </table>
