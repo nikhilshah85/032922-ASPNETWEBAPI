@@ -1,0 +1,22 @@
+As a developer, you need to create lots of objects
+	1. You are also responsibe for destroying the object but, you never did it
+		(you always leave it on to GC)
+	2. Access of the object, shareing the object (Lifecycle of an object)
+		share the same object between 
+			multiple request
+			multiplle user
+			a new object for every request
+---------------------------------------------
+	this is very bad situation for memory
+	
+	MS said, now, Runtime, will take care of both the above challanges (from .net core onwards)
+	Think about 100 of object (20 page website)
+
+	NOTE: you are not suppose to use, new keyword now onwards
+		EmployeeDBContexct db = new EmployeeDBContexct (); XXXXXXXXXXXXXXXXXX
+		EmployeeDBContexct  db;
+			
+
+		All the major config will be in startup.cs
+	
+before .net core, you had something called, IOC
